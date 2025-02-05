@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waste Detection Dashboard</title>
+
     <script defer src="/js/dashboard.js"></script>
     <script>
         const initialStatus = "<%= status %>"; // Inject initial status from the server
     </script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
+
 <body class="bg-gray-100">
+    <div class="mx-auto"></div>
     <div class="min-h-screen flex items-center justify-center">
         <div id="dashboard" class="w-full max-w-md bg-white shadow-lg rounded-lg p-6">
             <!-- Initial dashboard content will be dynamically rendered here -->
         </div>
     </div>
 </body>
+
 </html>
