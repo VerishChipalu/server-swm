@@ -6,7 +6,7 @@ const path = require("node:path");
 const WebSocket = require("ws");
 
 const app = express();
-const PORT = 5100;
+const PORT = 5000;
 
 app.use(cors());
 app.use(express.json());
